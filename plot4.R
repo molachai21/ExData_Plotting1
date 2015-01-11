@@ -12,7 +12,7 @@ subMetering2 <- as.numeric(subSetData$Sub_metering_2)
 subMetering3 <- as.numeric(subSetData$Sub_metering_3)
 
 
-png("plot4.png", width=480, height=480)
+png("./data/plot4.png", width=480, height=480)
 par(mfrow = c(2, 2)) 
 
 plot(datetime, globalActivePower, type="l", xlab="", ylab="Global Active Power", cex=0.2)
